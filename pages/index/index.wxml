@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="indexContainer">
+  <image src="{{userInfo.avatarUrl}}" class="avatar"></image>
+  <text class="userName">Hello {{userInfo.nickName}}</text>
+  <view class="goStudy" bindtap="handleParent">
+    <text catchtap="handleChild">开启小程序之旅</text>
+  </view>
+  <button bindgetuserinfo="handleGetUserInfo" style="display:{{isShow?'block':'none'}}" open-type="getUserInfo">获取用户信息</button>
+</view>

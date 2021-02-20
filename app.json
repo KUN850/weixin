@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/list/index",
+    "pages/index/index",
+    "pages/movies/movies",
+   
+ 
+    "pages/detail/detail",
+    "pages/demeo1/demo",      
+    "pages/demeo2/demo2"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#489BB1",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/index",
+        "text": "文与字",
+        "iconPath": "/images/1.jpg",
+        "selectedIconPath": "/images/ai.jpg"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影与频道",
+        "iconPath": "/images/1.jpg",
+        "selectedIconPath": "/images/ai.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

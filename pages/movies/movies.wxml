@@ -1,0 +1,12 @@
+<!--pages/movies/movies.wxml-->
+<view wx:for="{{arrays}}">
+  <view class="moviesContainer">
+    <image class="movieImg" src="/images/1.jpg"></image>
+    <view class="movie_detail">
+      <text class="movie_name">霸王别姬霸王别姬霸王别姬霸王别姬霸王别姬霸王别姬kkkkkkkkkkkkkkkkkkkkkkkkk</text>
+      <text class="movie_year">年份：2020</text>
+      <text class="movie_director">导演：罗方坤</text>
+    </view>
+    <text class="movie_rating">9.6</text>
+</view>
+</view>
